@@ -24,7 +24,7 @@ jobs:
         run: pytest --cov=app --cov-branch --cov-report=xml test_app.py 
       
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v2
+        uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}  # Add in Repo Settings → Secrets and variables → Actions
           slug: ShianLiChen/AdvWebDevActivity8ShianLiChen

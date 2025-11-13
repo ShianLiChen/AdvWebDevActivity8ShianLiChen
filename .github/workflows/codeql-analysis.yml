@@ -8,6 +8,10 @@ on:
 
 jobs:
   analyze:
+    permissions:
+        security-events: write
+        actions: read
+        contents: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

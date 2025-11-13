@@ -10,7 +10,7 @@ This project implements a minimal Flask API with automated testing, linting, cov
 Returns a greeting message.
 Example:
 ```
-json
+json output:
 { "message": "Hello, World!" }
 ```
 
@@ -18,24 +18,24 @@ json
 Accepts a JSON payload and returns it back with a `201 Created` status.
 Example:
 ```
-json
+json:
 { "msg": "ping" }
 ```
 
-### **PUT `/update`***
+### **PUT `/update`**
 Accepts a JSON payload and returns it with an added `"updated": true` field.
 Example:
 ```
-json
+json:
 Input: { "item": "test" }
 Output: { "updated": true, "item": "test" }
 ```
 
-### **DELETE `/remove`***
+### **DELETE `/remove`**
 Accepts a JSON payload and returns it with an added `"deleted": true` field.
 Example:
 ```
-json
+json:
 Input: { "item": "test" }
 Output: { "deleted": true, "item": "test" }
 ```

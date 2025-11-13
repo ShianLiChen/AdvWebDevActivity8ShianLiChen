@@ -1,6 +1,5 @@
 # test_app.py
 import app
-from flask import json
 
 
 def test_hello():

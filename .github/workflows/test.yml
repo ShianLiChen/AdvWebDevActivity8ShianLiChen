@@ -27,3 +27,4 @@ jobs:
         uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}  # Add in Repo Settings → Secrets and variables → Actions
+          slug: ShianLiChen/AdvWebDevActivity8ShianLiChen

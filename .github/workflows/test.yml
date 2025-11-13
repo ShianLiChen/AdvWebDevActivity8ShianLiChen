@@ -24,6 +24,7 @@ jobs:
         run: pytest --cov=app test_app.py 
       
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v2
+        uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+          slug: ShianLiChen/AdvWebDevActivity8ShianLiChen

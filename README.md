@@ -44,6 +44,7 @@ Output: { "deleted": true, "item": "test" }
 - All endpoints are covered with unit tests in `test_app.py` using pytest.
 - Should return 4 successful pytests completed if run locally.
 - CI workflow runs test automatically on push to GitHub and reports coverage using `pytest-cov` and Codecov.
+- Test confirm a proper 200 status code and the appropriate JSON response as shown in examples within the endpoints.
 
 ## Issues Encountered
 - **Dependabot File Note Found Issue**: Initially failed because it couldn't detect the `requirements.txt` file in the root folder. Was resolved by ensuring that the file existed on the main branch and publishing the `dependabot.yml` and `requirements.txt` file in the same commit.

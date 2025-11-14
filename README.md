@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a minimal Flask API with automated testing, linting, coverage reporting, security scanning, and dependency updates using GitHub Actions. The API includes several endpoints with full test coverage. Screenshots of successful implementation of each step can be found in the `screenshots\` folder
+This project implements a minimal Flask API with automated testing, linting, coverage reporting, security scanning, and dependency updates using GitHub Actions. The API includes several endpoints with full test coverage. Screenshots of successful implementation of each step can be found in the `screenshots\` folder.
 
 ## API Endpoints
 
